@@ -17,6 +17,9 @@ import {ConfirmComponent} from "./bindings/confirm.component";
   directives: [InputComponent, ConfirmComponent]
 })
 export class AppComponent {
+
+  title = 'udemy project 2';
+  
   myself = {
     name: '', age: ''
   };
